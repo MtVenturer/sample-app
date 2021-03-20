@@ -67,7 +67,7 @@ class BackgroundController {
   }
 
   // Identify whether the RunningGameInfo object we have references Fortnite
-  private isGameFortnite(info: RunningGameInfo) {
+  private isGameLeague(info: RunningGameInfo) {
     return info.classId === leagueClassId;
   }
 }
