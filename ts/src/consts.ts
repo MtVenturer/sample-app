@@ -1,21 +1,8 @@
-const fortniteClassId = 21216;
+const leagueClassId = 5426;
 
 const interestingFeatures = [
-  'counters',
-  'death',
-  'items',
-  'kill',
-  'killed',
-  'killer',
-  'location',
-  'match_info',
-  'match',
-  'me',
-  'phase',
-  'rank',
-  'revived',
-  'roster',
-  'team'
+  'game_data',
+  'live_client_data'
 ];
 
 const windowNames = {
@@ -28,7 +15,7 @@ const hotkeys = {
 };
 
 export {
-  fortniteClassId,
+  leagueClassId,
   interestingFeatures,
   windowNames,
   hotkeys
